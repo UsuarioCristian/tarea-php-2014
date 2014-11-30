@@ -368,7 +368,7 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="http://www.italpresion.com/wp-content/uploads/2011/07/2009-sector111-lotus-exige-side-800x300.jpg" alt="">
                                 </div>
                                 <div class="item">
                                     <img class="slide-image" src="http://placehold.it/800x300" alt="">
@@ -392,7 +392,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="application/public/images/products/Apple-TV.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
                                 <h4><a href="#">First Product</a>
@@ -414,7 +414,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="application/public/images/products/iMac.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$64.99</h4>
                                 <h4><a href="#">Second Product</a>
@@ -436,7 +436,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="application/public/images/products/iPhone.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$74.99</h4>
                                 <h4><a href="#">Third Product</a>
@@ -458,7 +458,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="application/public/images/products/iPod-Nano.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$84.99</h4>
                                 <h4><a href="#">Fourth Product</a>

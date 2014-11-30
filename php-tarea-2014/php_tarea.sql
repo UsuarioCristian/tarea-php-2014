@@ -57,6 +57,7 @@ CREATE TABLE IF NOT EXISTS `ofertas` (
 CREATE TABLE IF NOT EXISTS `productos` (
   `id_producto` int(10) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) COLLATE utf8_bin NOT NULL,
+  `img` varchar(20) COLLATE utf8_bin,
   `descripcion` varchar(140) COLLATE utf8_bin DEFAULT NULL,
   `id_categoria` int(10) NOT NULL,
   `id_oferta` int(10) DEFAULT NULL,
@@ -77,6 +78,19 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `password` varchar(100) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id_usuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+
+--
+-- Volcado de datos para la tabla `productos`
+--
+
+INSERT INTO `productos` (`id_producto`, `id_categoria`, `img`, `nombre`, `descripcion`, `precio`) VALUES
+(1, 1, 'iPod.png', 'iPod', 'The original and popular iPod.', 200),
+(2, 2, 'iMac.png', 'iMac', 'The iMac computer.', 1200),
+(3, 1, 'iPhone.png', 'iPhone', 'This is the new iPhone.', 400),
+(4, 1, 'iPod-Shuffle.png', 'iPod Shuffle', 'The new iPod shuffle.', 49),
+(5, 1, 'iPod-Nano.png', 'iPod Nano', 'The new iPod Nano.', 99),
+(6, 2, 'Apple-TV.png', 'Apple TV', 'The new Apple TV. Buy it now!', 300);
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
